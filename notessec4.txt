@@ -1,0 +1,90 @@
+git status --> know status of git in current wd
+		if git history is present
+
+
+
+What is a git Repo?
+Workspace which deals with files and versions with its own history.
+
+I'm going to make a new directory, let's say I'm writing a novel, so I'm going to go with my first novel and then I'm going to navigate into there.This is where I want my git repository.I want to have a new repo in my first novel so I can track the history, you know, the drafts, the changes I make, all of that stuff inside of this project and then I'm going to run, get and knit before that.
+
+
+**git init** will instatiate a new git repo for our wd, we will be running git innit once only for a project.
+
+you wont be able to see anything in your wd by ls as .git folder is hiddden
+to see you will have to use ls -a ( iguess it means ls all)
+
+
+I made a warning sign to make this clear.
+
+We want to keep our repository separate and you don't want to run git init inside of an existing repository.
+
+It's not the end of the world, but at some point things will go wrong.
+
+
+
+////
+
+
+
+Git commit is like a chgeckpoint but we dont want just do commit commit commit
+we can do add command for just adding few changes we will see further...
+///
+commit is checkpointng fulchanges add is like samlla samll changes
+
+working directory--(git add)--> staging area--(git commit)--> commit
+
+WD --> SA --> Repo
+
+
+working directory refers to folder where i have instansiated git
+
+repository is .git folder itself
+
+
+after git commit .git folder will get changed(u can see by ls-a)
+
+staging area is like a intermediate aread where u bring your changes and make them ready for  a commit
+this can be done by 
+
+git add file1 file 2 ....
+
+you can do ----> git rm --cached filename to remove files from staging area
+
+
+NOW COMMIT:
+
+use git commit -m "my message"
+
+///////AFTER COMMITING////
+
+Once you commit if you modify the file and then type git status you will see that filename has been modified
+
+
+
+
+One more command : git log 
+: so this logs commits you can seee who did what
+
+also you can use :
+git add . to add all files to staging area 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

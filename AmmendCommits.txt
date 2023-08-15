@@ -1,0 +1,24 @@
+only works if if " your previous commit" isincorrect
+
+you can add new files (stage) and the ndo
+git commit --amend
+
+
+
+Ignore f\iles in git 
+
+.gitingnore
+
+you can ignore files which have depend encies like node etc no need to track them
+
+-- api keys secrets etc also not to be tracked by git
+
+-- OS files
+
+-- Logs 
+
+
+1. create a .gitignore file 
+2. add the names of files in that what you want to ignore 
+3. then those wont be visble to track in git 
+4. so you can use git add. safely without adding which is not requied to be added.

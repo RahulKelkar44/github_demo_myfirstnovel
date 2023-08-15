@@ -1,0 +1,46 @@
+pwd - pwd 
+ls - list itesms 
+cd - change directory 
+mkdir -- folder manel
+touch-- create file 
+start filename .--- open the file
+
+mv -- cut paste
+mv * --- cut paste all
+cp fileanme or folder
+mv file or folder
+
+rm filenmae
+
+rm -rf folder
+
+cp -r folder
+
+
+//////
+git
+/////
+
+
+
+git init --- > initaialize a new git repo instance
+
+git add file1 2 3  --> add to staging area
+
+git commit -m message  ---> commit a change
+
+
+git rm --cached file1   ---> remove files from staging area.
+
+git logs   ---> history of commits
+
+
+git status  ---> current git files satus  staging or commited or whaterever.
+
+git add . all files staged
+
+
+git log --oneline   ---- > big message in one line
+
+
+ start code Text.txtfile  ----> opens in vscode
